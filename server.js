@@ -27,7 +27,7 @@ app.use(BP.json())
 app.use(BP.urlencoded({ extended: false}))
 
 
-app.use('./user', userRoute)
+app.use('/user', userRoute)
 
 
 
